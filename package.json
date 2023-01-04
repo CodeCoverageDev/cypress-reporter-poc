@@ -1,0 +1,30 @@
+{
+  "name": "cypress-reporter-poc",
+  "version": "1.0.0",
+  "description": "This is a Cypress POC for Reporting.",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run --env allure=true",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeCoverageDev/cypress-reporter-poc.git"
+  },
+  "keywords": [
+    "cypress",
+    "cypress-mochawesome-reporter",
+    "cypress-allure-plugin"
+  ],
+  "author": "Christopher Lim <toffer.lim87@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeCoverageDev/cypress-reporter-poc/issues"
+  },
+  "homepage": "https://github.com/CodeCoverageDev/cypress-reporter-poc#readme",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "cypress": "^12.3.0",
+    "cypress-mochawesome-reporter": "^3.2.3"
+  }
+}
